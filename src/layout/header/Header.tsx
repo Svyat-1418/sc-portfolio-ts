@@ -1,6 +1,8 @@
+import S from './Header.styled.tsx'
+
 export const Header = () => {
   return (
-    <header>
+    <S.HeaderStyled>
       <nav>
         <ul>
           <li>
@@ -31,6 +33,6 @@ export const Header = () => {
           </li>
         </ul>
       </div>
-    </header>
+    </S.HeaderStyled>
   )
 }
